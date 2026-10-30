@@ -64,5 +64,89 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-insiderfilings.info is a company surfaced via the API Evangelist harvest backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.
-- https://insiderfilings.info/
+InsiderFilings.info provides a public beta REST API delivering normalized SEC ownership transaction line items from Forms 3, 4 and 5, including amendments, aggregated from SEC EDGAR and checked for new filings roughly every five minutes. Coverage from 2025 onward is intended to be complete; older historical coverage may be incomplete. A free 7-day trial covers filings accepted by the SEC within the last 30 days, with 100 requests per UTC day, 10 per minute and up to 100 results per request; the trial window is separate from the database's historical coverage. Users can query recent insider purchases and sales, explore detailed filing data, and integrate this information into compliance, research, or investment workflows.
+
+**Areas:** Insider Trading · SEC Filings · Financial Data · Research Tools · Market Data
+
+## insiderfilings.info on APIs.io
+
+Everything profiled for insiderfilings.info is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/insiderfilings-info/](https://apis.io/providers/insiderfilings-info/)** — or go straight to one of the APIs or properties below.
+
+### APIs (3)
+
+- [InsiderFilings API](https://apis.io/apis/insiderfilings-info/insiderfilings-api/) — Public Beta REST API for normalized SEC ownership transaction line items from Forms 3, 4 and 5.
+- [insiderfilings.info InsiderFilings API V1 — Public Beta API](https://apis.io/apis/insiderfilings-info/insiderfilings-info-insiderfilings-api-v1-public-beta-api/) — The InsiderFilings API V1 — Public Beta API from insiderfilings.info — 1 operation(s) for insiderfilings api v1 — public beta.
+- [insiderfilings.info Transactions API](https://apis.io/apis/insiderfilings-info/insiderfilings-info-transactions-api/) — The Transactions API from insiderfilings.info — 1 operation(s) for transactions.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Insiderfilings Info Domain Security](https://apis.io/security/insiderfilings-info/insiderfilings-info-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://insiderfilings.info/)
+- [Documentation](https://insiderfilings.info/api/v1/docs/)
+- [Privacy policy](https://insiderfilings.info/privacy.php)
+
+## API Evangelist rating
+
+**Kin Score 22.3** — emerging · rubric 0.25.0 · scored 2026-10-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 73.2 |
+| Contract quality | 45.9 |
+| Contract governance | 4.5 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 9.5 |
+| Access clarity | 10.5 |
+
+**Agent readiness 26.8** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | na |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | na |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | verified |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | na |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | paginated |
+| Operation Distinctiveness | na |
+
+**Regulatory alignment 13.9** — Securities & Market Data
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/insiderfilings-info/](https://apis.io/providers/insiderfilings-info/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for insiderfilings.info: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/insiderfilings-info/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
